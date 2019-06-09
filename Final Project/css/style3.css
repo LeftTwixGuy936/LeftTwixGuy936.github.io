@@ -1,0 +1,88 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Century Gothic;
+}
+
+header{
+	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../space.jpg);
+	height: 100vh;
+	background-position: center;
+}
+
+ul{
+	float: right;
+	list-style-type: none;
+	margin-top: 25px;
+}
+
+ul li{
+	display: inline-block;
+}
+
+ul li a{
+	text-decoration: none;
+	color: #59eff7;
+	padding: 5px 20px;
+	border: 1px solid transparent;
+	transition: 0.6s ease;
+}
+
+ul li a:hover{
+	background-color: #59eff7;
+	color: #000;
+}
+
+ul li.active a{
+	background-color: #59eff7;
+	color: #000;
+}
+
+.Nasa img{
+	float: left;
+	width: 150px;
+	height: auto;
+	margin-top: 10px;
+}
+
+.main{
+	max-width: 1400px;
+	margin: auto;
+}
+
+.title{
+	position: absolute;
+	top: 25px;
+	left:250px;
+}
+
+.title h1{
+	color: #fff;
+	font-size: 25px;
+}
+
+.title h2{
+	color: #fff;
+	font-size: 15px;
+}
+
+.title h3{
+	color: #fff;
+	font-size: 12px;
+}
+
+.pictures{
+	position: absolute;
+	left:275px;
+	margin-top: 100px;
+	list-style-type: none;
+}
+
+.pictures ul{
+	display: inline-block;
+}
+
+.pictures li img{
+	height: 170px;
+	width: auto;
+}
