@@ -73,8 +73,9 @@ ul li.active a{
 
 .people{
 	position: absolute;
-	top: 160px;
+	top: 40%;
 	left:50%;
+	transform: translate(-50%,-50%);
 	width: 800px;
 	color: #fff;
 	text-decoration: none;
