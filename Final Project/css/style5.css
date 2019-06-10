@@ -74,7 +74,7 @@ ul li.active a{
 .people{
 	position: absolute;
 	top: 160px;
-	align: center;
+	left: 400px;
 	width: 800px;
 	color: #fff;
 	text-decoration: none;
