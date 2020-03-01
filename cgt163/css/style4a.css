@@ -1,0 +1,127 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Century Gothic;
+}
+
+body{
+	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../space.jpg);
+	width: 100%;
+	bottom: 0px;
+	height: 100vh;
+	background-position: center;
+	background-attachment: fixed;
+	max-width: 100%;
+	overflow-x:hidden;
+}
+
+ul{
+	float: right;
+	list-style-type: none;
+	margin-top: 25px;
+}
+
+ul li{
+	display: inline-block;
+}
+
+ul li a{
+	text-decoration: none;
+	color: #59eff7;
+	padding: 5px 20px;
+	border: 1px solid transparent;
+	transition: 0.6s ease;
+}
+
+ul li a:hover{
+	background-color: #59eff7;
+	color: #000;
+}
+
+ul li.active a{
+	background-color: #59eff7;
+	color: #000;
+}
+
+.Transtar img{
+	float: left;
+	width: 100px;
+	height: auto;
+	margin-top: 10px;
+}
+
+.main{
+	max-width: 1400px;
+	margin: auto;
+}
+
+.title{
+	position: absolute;
+	top: 25px;
+	left:200px;
+}
+
+.title h1{
+	color: #fff;
+	font-size: 25px;
+	padding: 0px;
+}
+
+.title h2{
+	color: #fff;
+	font-size: 15px;
+	padding: 0px;
+}
+
+.week{
+	position: absolute;
+	top: 15%;
+	left:50%;
+	transform: translate(-50%,-50%);
+}
+
+.week h1{
+	color: #ff3f00;
+	text-align: center;
+	font-size: 40px;
+	text-decoration: none;
+}
+
+.title h3{
+	color: #fff;
+	font-size: 12px;
+	padding: 0px;
+}
+
+.docs{
+	position: absolute;
+	left: 50%;
+	top: 25%;
+	transform: translate(-50%,0%);
+	width: 1000px;
+}
+
+.docs img{
+	width: 1000px;
+	height: auto;
+}
+
+.button{
+	position: absolute;
+	top: 20%;
+	left:50%;
+	transform: translate(-50%,0%);
+}
+
+.button .btn{
+	text-decoration: none;
+	color: #ff3f00;
+	padding: 5px 20px;
+	border: 1px solid;
+	border-color: #ff3f00;
+	transition: 0.6s ease;
+}
+.button .btn:hover{
+	background-color: #ff3f00;
+	color: #000;
+}
